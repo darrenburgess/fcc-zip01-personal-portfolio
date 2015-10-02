@@ -34,11 +34,7 @@ html {
     text-shadow: none;
 }
 
-body {
-    background-image: url(https://dl.dropboxusercontent.com/u/27357405/matrix.png);
-    /*background-size: 100% 100%;*/
-    background-color: black;
-}
+
 
 /*
  * A better looking default horizontal rule
@@ -100,6 +96,37 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+h1, h2, h3, p {
+    color: lightgrey;
+}
+
+.boxed {
+    border: solid 1px lightgrey;
+    padding: 25px;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    margin: 25px;
+}
+
+h3 {
+    text-align: left;
+}
+
+.float-right {
+    float: right;
+}
+
+h1 {
+    font-size: 48px;
+    padding: 25px;
+}
+
+body {
+    background-image: url(https://dl.dropboxusercontent.com/u/27357405/matrix.png);
+    background-size: 100% 100%;
+    background-color: color;
+}
 
 
 
